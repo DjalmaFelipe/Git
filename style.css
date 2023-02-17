@@ -1,0 +1,15 @@
+#corpo {
+    background-color: whitesmoke;
+}
+#descricao {
+    color: gray;
+}
+#comando {
+    background-color: gainsboro;
+    border-style:initial;
+    border-left: 6px solid red;
+}
+
+#nota {
+    color:green;
+}
