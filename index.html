@@ -5,34 +5,37 @@
 </head>
 <body id="corpo">
   <div id="descricao">
-    Consultar versão
+    Como consultar a versão do Git
   </div>
   <div id="comando">
     git --version<br>
   </div>
+  <br>
   <div id="descricao">
-    Configurar GIT
+    Como configurar username e email no GIT
   </div>
   <div id="comando">
-    git config --global user.name "wcomandoschools-test" <br>
-    git config --global user.email "test@wcomandoschools.com" <br>
+    git config --global user.name "Felipe" <br>
+    git config --global user.email "DjalmaFelipe@outlook.com" <br>
   </div>
+  <br>
   <div id="descricao">
-    Iniciar um novo repositório
+    Como iniciar um novo repositório no Git
   </div>
   <div id="comando">
     git init<br>
   </div>
+  <br>
   <div id="descricao">
-    Verifica se o arquivo já está no repositório
+    Como verificar a situação do arquivo
   </div>
   <div id="comando">
     git status<br>
   </div>
   <div id="nota">
     <br> Nota: <br> <br>
-    TRACKED --> é quando o arquivo está no github<br>
-    UNTRACKED --> é quando o arquivo está apenas localmente no seu dispositivo<br><br>
+    TRACKED --> ocorre quando o arquivo está disponível no github<br>
+    UNTRACKED --> essa condição se aplica quando o arquivo está disponível apenas localmente no seu dispositivo pessoal<br><br>
   </div>
   <div id="descricao">
     Adiciona ao ambiente de testes e preparação (STAGE)
@@ -40,27 +43,42 @@
   <div id="comando">
     git add <br>
   </div>
+  <br>
   <div id="descricao">
-    Adicionando vários arquivos ao ambiente de teste
+    Adicionando vários arquivos ao STAGE (escolher uma das quatro linhas de comando abaixo)
   </div>
   <div id="comando">
-    git add --all ou git add -a <br>
+    git add --all <br> git add -a <br> git add * <br> git add . <br>
   </div>
+  <br> 
   <div id="descricao">
-    O commit serve como um save point, ou seja a versão<br>
-    finalmente adicionada ao repositório, o commit deve<br>
+    O commit serve como um save point, ou seja a versão
+    finalmente é adicionada ao repositório, o commit deve
     ser acompanhado de uma mensagem descritiva<br>
   </div>
   <div id="comando">
-    git commit -m "First release of Hello World!"<br>
+    git commit -m "neste trecho deve ser inserida uma informação para descrever a construção ou ajuste realizado"<br>
   </div>
+  <br>
   <div id="descricao">
-    Mostra o status com descrições reduzidas
+    Como trazer um arquivo já existente no github para seu dispositivo
+  </div>
+  <div id="comando">
+    git clone
+  </div>
+  <br>
+  <div id="nota">
+    O comando deve ser seguido pelo link do repositório disponibilizado pelo github <br>  Ex: git clone https://meurepositorio.git
+  </div>
+  <br>
+  <div id="descricao">
+    Exibe o status com descrições reduzidas
   </div>
   <div id="comando">
     git status --short<br>
     M index.html<br>
   </div>
+  <br>
   <div id="nota">
     NOTA: Os sinalizadores de status curtos são:<br>
     <br>
@@ -70,40 +88,35 @@
     D - Arquivos excluídos <br><br>
   </div>
   <div id="descricao">
-    Enviando diretamente, ignorando o envio ao STAGE
+    Como enviar arquivo diretamente, ignorando o envio ao STAGE
   </div>
   <div id="comando">
     git commit -a -m "Updated index.html with a new line" <br>
   </div>
+  <br>
   <div id="descricao">
-    Apresenta histórico de modificações do repositório
+    Como exibir histórico de modificações do repositório
   </div>
   <div id="comando">
     git log <br>
   </div>
+  <br>
   <div id="descricao">
-    Associando repositório do github ao git
+    Como Associar repositório do github ao git
   </div>
   <div id="comando">
-    git remote add origin https://github.com/user/repo.git <br>
+    git remote add origin <br>
   </div>
-  <div id="descricao">
-    Subindo os arquivos locais já existentes
+  <br>
+  <div id="nota">
+    O comando deve ser seguido pelo link do repositório disponibilizado pelo github <br>  Ex: git clone https://meurepositorio.git
   </div>
-  <div id="comando">
-    git push --set-upstream origin master <br>
-  </div>
+  <br>
   <div id="descricao">
     É possível consultar uma ajuda no própio git com os comandos:
   </div>
   <div id="comando">
     git (comando) -help ou git help --all (este exibirá uma lista muito longa)
   </div>
-<!--  <div id="descricao">
-
-  </div>
-  <div id="comando">
-
-  </div> -->
 </body>
 </html>
